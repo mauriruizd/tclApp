@@ -1,0 +1,26 @@
+{
+	"dimensionesLabel" : "Dimensiones de la sala:",
+	"largoInput" : {
+		"label" : "Ingrese Largo:",
+		"placeholder" : "mts."
+	},
+	"anchoInput" : {
+		"label" : "Ingrese Ancho:",
+		"placeholder" : "mts."
+	},
+	"altoInput" : {
+		"label" : "Ingrese Alto:",
+		"placeholder" : "mts."
+	},
+	"cantidadLabel" : "Cantidad de:",
+	"personasInput" : {
+		"label" : "Personas:",
+		"placeholder" : "personas"
+	},
+	"aparatosInput" : {
+		"label" : "Aparatos Electronicos:",
+		"placeholder" : "aparatos"
+	},
+	"calcularBtn" : "Calcular",
+	"calcPageH1" : "Necesita un AC de aprox: "
+}

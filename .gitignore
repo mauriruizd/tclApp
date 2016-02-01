@@ -1,0 +1,5 @@
+node_modules/
+cordova/hooks/
+cordova/platforms/
+cordova/plugins/
+cordova/www/

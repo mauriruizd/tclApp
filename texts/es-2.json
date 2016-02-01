@@ -1,0 +1,26 @@
+{
+	"#label_dimensiones" : {
+		"text" : "Dimensiones de la sala:"
+	},
+	"#label_cantidad" : {
+		"text" : "Cantidad de:"
+	},
+	"#input_label_ancho" : {
+		"text" : "Ingrese ancho:"
+	},
+	"#input_ancho" : {
+		"message" : "mts."
+	},
+	"#input_label_alto" : {
+		"text" : "Ingrese alto:"
+	},
+	"#input_alto" : {
+		"message" : "mts."
+	},
+	"#input_label_largo" : {
+		"text" : "Ingrese largo:"
+	},
+	"#input_largo" : {
+		"message" : "mts."
+	}
+}

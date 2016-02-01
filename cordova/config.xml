@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.wigocreative.tcl.app" version="1.0">
+  <name>TCL</name>
+  <description>
+   Calcula cuál aire debes comprar para refrescar tu hogar.
+  </description>
+  <author email="wigo@wigolabs.com" href="https://wigolabs.com">
+   Wigo Creative
+  </author>
+	<platform name="android">
+		<icon src="res/android/mdpi.png" density="mdpi" />
+		<icon src="res/android/hdpi.png" density="hdpi" />
+		<icon src="res/android/xhdpi.png" density="xhdpi" />
+		<icon src="res/android/xxhdpi.png" density="xxhdpi" />
+		<icon src="res/android/xxxhdpi.png" density="xxxhdpi" />
+	</platform>
+</widget>
