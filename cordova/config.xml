@@ -8,10 +8,10 @@
    Wigo Creative
   </author>
 	<platform name="android">
-		<icon src="../res/icons/android/mdpi.png" density="mdpi" />
-		<icon src="../res/icons/android/hdpi.png" density="hdpi" />
-		<icon src="../res/icons/android/xhdpi.png" density="xhdpi" />
-		<icon src="../res/icons/android/xxhdpi.png" density="xxhdpi" />
-		<icon src="../res/icons/android/xxxhdpi.png" density="xxxhdpi" />
+		<icon src="res/icons/android/mdpi.png" density="mdpi" />
+		<icon src="res/icons/android/hdpi.png" density="hdpi" />
+		<icon src="res/icons/android/xhdpi.png" density="xhdpi" />
+		<icon src="res/icons/android/xxhdpi.png" density="xxhdpi" />
+		<icon src="res/icons/android/xxxhdpi.png" density="xxxhdpi" />
 	</platform>
 </widget>
