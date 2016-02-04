@@ -26,7 +26,7 @@ module.exports = function(pageTitle, imageURL, description, titleTxt, titleSubTx
   .appendTo(scrollView);
 
   var contentComposite = tabris.create("Composite", {
-    left: 0, right: 0, top: "#titleComposite", height: 1000,
+    left: 0, right: 0, top: "#titleComposite", height: 500,
     background: "white"
   }).appendTo(scrollView);
 
@@ -61,8 +61,6 @@ module.exports = function(pageTitle, imageURL, description, titleTxt, titleSubTx
     var imageHeight = bounds.height / 2;
     imageView.set("height", imageHeight);
     var titleCompHeight = titleComposite.get("height");
-    // We need the offset of the title composite in each scroll event.
-    // As it can only change on resize, we assign it here.
     titleCompY = Math.min(imageHeight - titleCompHeight, bounds.height / 2);
     titleComposite.set("top", titleCompY);
   });

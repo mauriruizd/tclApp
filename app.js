@@ -247,8 +247,7 @@ function createList(items, parent) {
 		}
 	})
 	.on("select", function(widget, item) {
-		require("./detail")("Detalle", resource + item.imagen, "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor " +
-			"No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.", item.titulo, item.btu + " BTU/hr").open();
+		require("./detail")("Detalle", resource + item.imagen, item.descripcion, item.titulo, item.btu + " BTU/hr").open();
 	})
 	.appendTo(parent);
 	return listView;
