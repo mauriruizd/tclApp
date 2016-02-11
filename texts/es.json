@@ -21,6 +21,14 @@
 		"label" : "Aparatos Electronicos:",
 		"placeholder" : "aparatos"
 	},
+	"ventanasInput" : {
+		"label" : "Mts. cuadrados de ventanas:",
+		"placeholder" : "m2"
+	},
+	"exposicionSwitch" : {
+		"options" : ["Sol", "Sombra"]
+	},
 	"calcularBtn" : "Calcular",
-	"calcPageH1" : "Necesita un AC de aprox: "
+	"calcPageH1" : "Necesita un AC de aprox: ",
+	"exposicionLabel" : "Expuesto al sol o sombra"
 }
