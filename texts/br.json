@@ -1,0 +1,34 @@
+{
+	"dimensionesLabel" : "Dimenções da sala:",
+	"largoInput" : {
+		"label" : "Cumprimento:",
+		"placeholder" : "metros"
+	},
+	"anchoInput" : {
+		"label" : "Largura:",
+		"placeholder" : "metros"
+	},
+	"altoInput" : {
+		"label" : "Altura:",
+		"placeholder" : "metros"
+	},
+	"cantidadLabel" : "Quantidade de:",
+	"personasInput" : {
+		"label" : "Pessoas:",
+		"placeholder" : "pessoas"
+	},
+	"aparatosInput" : {
+		"label" : "Aparelhos eletronicos:",
+		"placeholder" : "aparelhos"
+	},
+	"ventanasInput" : {
+		"label" : "Metros quadrados de janelas:",
+		"placeholder" : "m2"
+	},
+	"exposicionSwitch" : {
+		"options" : ["Sol", "Sombra"]
+	},
+	"calcularBtn" : "Calcular",
+	"calcPageH1" : "Você precissa um Ar Condicionado de: ",
+	"exposicionLabel" : "Exposição ao sol:"
+}

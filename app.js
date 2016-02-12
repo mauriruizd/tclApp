@@ -6,7 +6,7 @@ tabris.ui.set("textColor", "#fff");
 tabris.ui.set("toolbarVisible", false);
 
 var lang = tabris.device.get("language").replace(/-.*/, "");
-var texts = require("./texts/" + lang + ".json") || require("./texts/es.json");
+var texts = require("./texts/" + lang + ".json") || require("./texts/en.json");
 
 var resource = "http://52.36.112.171/";
 //var resource = "http://192.168.1.196/tcl/api/tclServer/public/";

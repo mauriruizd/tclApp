@@ -1,0 +1,34 @@
+{
+	"dimensionesLabel" : "Room Dimensions:",
+	"largoInput" : {
+		"label" : "Length:",
+		"placeholder" : "meters"
+	},
+	"anchoInput" : {
+		"label" : "Width:",
+		"placeholder" : "meters"
+	},
+	"altoInput" : {
+		"label" : "Height:",
+		"placeholder" : "meters"
+	},
+	"cantidadLabel" : "Quantity of:",
+	"personasInput" : {
+		"label" : "People:",
+		"placeholder" : "people"
+	},
+	"aparatosInput" : {
+		"label" : "Electronic Devices:",
+		"placeholder" : "devices"
+	},
+	"ventanasInput" : {
+		"label" : "Square meters of windows:",
+		"placeholder" : "m2"
+	},
+	"exposicionSwitch" : {
+		"options" : ["Sun", "Shadow"]
+	},
+	"calcularBtn" : "Calculate",
+	"calcPageH1" : "You need an A.C. of aproximately: ",
+	"exposicionLabel" : "Sun exposure:"
+}
