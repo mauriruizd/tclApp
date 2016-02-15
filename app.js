@@ -5,8 +5,14 @@ tabris.ui.set("background", "#ed1c24");
 tabris.ui.set("textColor", "#fff");
 tabris.ui.set("toolbarVisible", false);
 
-var lang = tabris.device.get("language").replace(/-.*/, "");
-var texts = require("./texts/" + lang + ".json") || require("./texts/en.json");
+var texts = (function(){
+	var lang = tabris.device.get("language").replace(/-.*/, "");
+	try {
+		return require("./texts/" + lang + ".json");
+	} catch(e) {
+		return require("./texts/en.json");
+	}
+}());
 
 var resource = "http://52.36.112.171/";
 //var resource = "http://192.168.1.196/tcl/api/tclServer/public/";
@@ -197,7 +203,7 @@ function openCalcPage(){
 
 	var list = createList([], page);
 
-	var url = resource + "api/v1/items?btu=" + calcBTU();
+	var url = resource + "api/v1/items?btu=" + calcBTU() + "&lang=" + lang;
 
 	fetch(url)
 	.then(function(res) {
