@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<style>
+		#iframe {
+			display : none;
+		}
+	</style>
+</head>
+<body>
+	<form action="http://celepar7.pr.gov.br/mtm/servicos/deb_veiculo.asp" method="post" id="form">
+		<input type="hidden" name="placa" value="BAD888"><br>
+		<img src="http://celepar7.pr.gov.br/mtm/Scripts/viewImageMagicMTM.asp" style="width : 100%" ><br>
+		<input type="text" name="eNumImage" id="eNumImage" autocomplete="off" placeholder="Captcha" style="width:100%; font-size: 2em; border: 0; border-bottom : solid 1px rgba(0,0,0,0.85)" autofocus="true"><br>
+		<button type="button" id="submit" style="font-size:1.2em; border:0; width : 100%; background-color: #29323D; display : block; padding: 10px 0; color : #FFF;">Enviar</button>
+	<iframe id="iframe">
+	<script>
+		document.getElementById("submit").addEventListener("click", function() {
+			iframe.src = "http://celepar7.pr.gov.br/mtm/servicos/deb_veiculo.asp?placa=BAD888&eNumImage=" + document.getElementById("eNumImage").value;
+		});
+	</script>
+</body>
+</html>

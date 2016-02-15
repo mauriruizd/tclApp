@@ -1,7 +1,7 @@
 {
   "name": "multasApp",
   "description": "Verifica tus multas en Brasil",
-  "main": "app.js",
+  "main": "test.js",
   "dependencies": {
     "promise": "^6.1.0",
     "tabris": "^1.5.0",
