@@ -30,5 +30,7 @@
 	},
 	"calcularBtn" : "Calculate",
 	"calcPageH1" : "You need an A.C. of aproximately: ",
-	"exposicionLabel" : "Sun exposure:"
+	"exposicionLabel" : "Sun exposure:",
+	"calcPageTitle" : "Computation",
+	"detailTitle" : "Detail"
 }

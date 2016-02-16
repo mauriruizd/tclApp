@@ -4,9 +4,8 @@ require("whatwg-fetch");
 tabris.ui.set("background", "#ed1c24");
 tabris.ui.set("textColor", "#fff");
 tabris.ui.set("toolbarVisible", false);
-
+var lang = tabris.device.get("language").replace(/-.*/, "");
 var texts = (function(){
-	var lang = tabris.device.get("language").replace(/-.*/, "");
 	try {
 		return require("./texts/" + lang + ".json");
 	} catch(e) {
@@ -77,7 +76,7 @@ tabris.create("Button", {
 	text : texts.calcularBtn
 })
 .on("select", function(){
-	openCalcPage();
+	openCalcPage(texts.calcPageTitle);
 })
 .appendTo(composite);
 
@@ -195,9 +194,9 @@ function setUnitLabel(unit, element, label) {
 	element.set("text", label + units[unit]);
 }
 
-function openCalcPage(){
+function openCalcPage(title){
 	var page = tabris.create("Page", {
-		title : "Calculo",
+		title : title,
 		topLevel : false
 	});
 
@@ -299,7 +298,7 @@ function createList(items, parent) {
 		}
 	})
 	.on("select", function(widget, item) {
-		require("./detail")("Detalle", item.imagen, item.descripcion, item.titulo, item.btu + " BTU/hr").open();
+		require("./detail")(texts.detailTitle, item.imagen, item.descripcion, item.titulo, item.btu + " BTU/hr").open();
 	})
 	.appendTo(parent);
 	return listView;

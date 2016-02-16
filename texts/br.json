@@ -30,5 +30,7 @@
 	},
 	"calcularBtn" : "Calcular",
 	"calcPageH1" : "Você precissa um Ar Condicionado de: ",
-	"exposicionLabel" : "Exposição ao sol:"
+	"exposicionLabel" : "Exposição ao sol:",
+	"calcPageTitle" : "Calculo",
+	"detailTitle" : "Detalhe"
 }

@@ -30,5 +30,7 @@
 	},
 	"calcularBtn" : "Calcular",
 	"calcPageH1" : "Necesita un AC de aprox: ",
-	"exposicionLabel" : "Expuesto al sol o sombra"
+	"exposicionLabel" : "Expuesto al sol o sombra",
+	"calcPageTitle" : "Calculo",
+	"detailTitle" : "Detalle"
 }
